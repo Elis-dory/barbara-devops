@@ -1,6 +1,6 @@
 FROM centos
 
-MAINTAINER barbara.ammannati@sourcesense.com
+MAINTAINER dory_sense
 
 RUN mkdir /opt/tomcat/
 
