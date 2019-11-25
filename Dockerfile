@@ -18,7 +18,7 @@ RUN curl -O -L https://github.com/AKSarav/SampleWebApp/raw/master/dist/SampleWeb
 WORKDIR /opt/tomcat/bin
 EXPOSE 8082
 
-RUN /opt/tomcat/bin/catalina.sh start
+CMD /opt/tomcat/bin/catalina.sh start
 
 
 
