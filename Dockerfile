@@ -12,7 +12,8 @@ RUN yum -y install java
 RUN java -version
 
 WORKDIR /opt/tomcat/webapps
-RUN curl -O -L http://192.168.1.73:8081/repository/maven-snapshots/sparkjava-hello-world-1.0-20191125.100147-1.war
+#RUN curl -O -L http://192.168.1.73:8081/repository/maven-snapshots/sparkjava-hello-world-1.0-20191125.100147-1.war
+RUN curl -O -L https://github.com/AKSarav/SampleWebApp/raw/master/dist/SampleWebApp.war
 
 WORKDIR /opt/tomcat/bin
 EXPOSE 8082
