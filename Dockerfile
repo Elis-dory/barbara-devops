@@ -17,5 +17,7 @@ RUN curl -O -L http://192.168.1.73:8081/repository/maven-snapshots/sparkjava-hel
 WORKDIR /opt/tomcat/bin
 EXPOSE 8082
 
+CMD ["sudo /opt/tomcat/bin/catalina.sh", "run"]
+
 
 
